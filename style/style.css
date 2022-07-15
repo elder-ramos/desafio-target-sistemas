@@ -1,0 +1,25 @@
+/* Estilizar fontes, cores dos textos e cores do fundo */
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+}
+
+/* centralizar o conteúdo */
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Limitar o tamanho de textos grandes para haver quebra de linhas. */
+p{
+    max-width: 400px;
+}
+
+/* Mudar a cor do título e de cada "questão" para vermelho. */
+h2, h1{
+    color:rgb(151, 8, 8)
+}

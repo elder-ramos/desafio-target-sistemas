@@ -2,26 +2,30 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
     <title>Target Sistemas - Teste</title>
 </head>
 <body>
+<div>
     <h1>Estágio - Target Sistemas</h1>
 
     <!-- Questão 1 e resultado -->
-    <h2>Questão 1 -</h2>
+    <h2>Questão 1</h2>
     <p id="result1"></p>
     <button onclick="questao1()">Resultado</button>
 
     <!-- Questão 2 e resultado -->
-    <h2>Questão 2 -</h2>
+    <h2>Questão 2</h2>
+    <p>Digite um número para verificar se ele está na sequência de Fibonacci:</p>
     <input type="number" id="inNumero">
     <p id="result2"></p>
     <button onclick="questao2()">Verificar</button>
 
     <!-- Questão 3 e resultado -->
-    <h2>Questão 3 -</h2>
+    <h2>Questão 3</h2>
 
     <!-- Questão predefinida -->
+    <p>Resultados das sequências:</p>
     <p id="resultA">a) 1, 3 , 5, 7, _</p>
     <p id="resultB">b) 2, 4, 8, 16, 32, 64, ____</p>
     <p id="resultC">c) 0, 1, 4, 9, 16, 25, 36, ____</p>
@@ -33,16 +37,19 @@
     <button onclick="questao3()">Resultado</button>
 
     <!-- Questão 4 e resultado -->
-    <h2>Questão 4 -</h2>
+    <h2>Questão 4</h2>
+    <p>Um carro a 110km/h e um caminhão a 80km/h estão em sentidos opostos. A distância entre os dois é de 100km. O carro irá parar no pedágio, enquanto o caminhão poderá passar.</p>
     <p id="result4"></p>
     <button onclick="questao4()">Resultado</button>
 
     <!-- Questão 5 e resultado -->
-    <h2>Questão 5 -</h2>
+    <h2>Questão 5</h2>
+    <p>Digite frases/números para ver o inverso deles:</p>
     <input type="text" id="inReverse">
     <p id="result5"></p>
     <button onclick="questao5()">Resultado</button>
 
+</div>
 </body>
 <script src="script/script.js"></script>
 </html>
